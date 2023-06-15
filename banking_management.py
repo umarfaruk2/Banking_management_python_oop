@@ -28,7 +28,7 @@ class Admin:
             user_account.take_loan_from_bank(given_amount)
         
         else:
-            print("You don't have enough loan balance or load given off")
+            print("You don't have enough balance to give loan or load given off")
     
     def loan_feature_on_off(self, toggle):
         if toggle == 'off':
